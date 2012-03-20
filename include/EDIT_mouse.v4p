@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta26.dtd" >
-   <PATCH nodename="D:\dropbox\new_mapping_toolkit\release_0.2b_alpha\include\EDIT_mouse.v4p" filename="D:\dropbox\new_mapping_toolkit\release_0.2b_alpha\include\EDIT_mouse.v4p" systemname="EDIT_mouse">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\EDIT_mouse.v4p" filename="D:\dropbox\new_mapping_toolkit\release_0.2b_alpha\include\EDIT_mouse.v4p" systemname="EDIT_mouse">
    <BOUNDS height="8355" left="3540" top="1680" type="Window" width="6330">
    </BOUNDS>
    <NODE componentmode="InABox" id="0" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">

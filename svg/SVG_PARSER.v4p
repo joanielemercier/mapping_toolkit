@@ -3017,11 +3017,9 @@
    </PIN>
    <BOUNDS height="100" left="285" top="795" type="Node" width="100">
    </BOUNDS>
-   <PIN encoded="0" pinname="Input 1" slicecount="1" values="../">
+   <PIN encoded="0" pinname="Input 1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK dstnodeid="178" dstpinname="Input 2" srcnodeid="0" srcpinname="Output String">
-   </LINK>
    <LINK dstnodeid="177" dstpinname="Filename" srcnodeid="178" srcpinname="Output">
    </LINK>
    <LINK dstnodeid="184" dstpinname="Input" srcnodeid="178" srcpinname="Output">
@@ -3048,4 +3046,20 @@
    </LINK>
    <LINK dstnodeid="121" dstpinname="Input" srcnodeid="163" srcpinname="Output">
    </LINK>
+   <LINK srcnodeid="0" srcpinname="Output String" dstnodeid="178" dstpinname="Input 2">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="226" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1335" top="555" width="585" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1335" top="555" width="585" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="string" encoded="0">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
    </PATCH>

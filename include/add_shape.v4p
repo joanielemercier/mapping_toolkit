@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta26.dtd" >
-   <PATCH nodename="D:\dropbox\new_mapping_toolkit\release_0.2_alpha\include\add_shape.v4p" filename="D:\dropbox\new_mapping_toolkit\release_0.1_alpha\release_0.1_alpha\include\add_shape.v4p" systemname="add_shape">
-   <BOUNDS height="5415" left="15015" top="1050" type="Window" width="4335">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\add_shape.v4p" filename="D:\dropbox\new_mapping_toolkit\release_0.1_alpha\release_0.1_alpha\include\add_shape.v4p" systemname="add_shape">
+   <BOUNDS height="5415" left="12315" top="375" type="Window" width="4335">
    </BOUNDS>
    <NODE componentmode="InABox" id="24" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="100" left="2175" top="240" type="Node" width="100">
@@ -153,9 +153,9 @@
    <LINK dstnodeid="32" dstpinname="Input" srcnodeid="43" srcpinname="Y Output Value">
    </LINK>
    <NODE componentmode="InABox" id="44" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
-   <BOUNDS height="100" left="1860" top="3900" type="Node" width="100">
+   <BOUNDS height="100" left="1260" top="4200" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS height="240" left="1860" top="3900" type="Box" width="795">
+   <BOUNDS height="255" left="1260" top="4200" type="Box" width="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
@@ -164,16 +164,16 @@
    </NODE>
    <LINK dstnodeid="44" dstpinname="Y Input Value" srcnodeid="32" srcpinname="Output">
    </LINK>
-   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="49">
-   <BOUNDS type="Node" left="630" top="3885" width="100" height="100">
+   <NODE componentmode="InABox" id="49" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="2235" top="4275" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="630" top="3885" width="795" height="240">
+   <BOUNDS height="240" left="2235" top="4275" type="Box" width="795">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="add" encoded="0">
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="add">
    </PIN>
    </NODE>
-   <LINK srcnodeid="28" srcpinname="Up Edge" dstnodeid="49" dstpinname="Y Input Value">
+   <LINK dstnodeid="49" dstpinname="Y Input Value" srcnodeid="28" srcpinname="Up Edge">
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta26.dtd" >
    <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\texture_zoom.v4p" filename="D:\dropbox\new_mapping_toolkit\include\texture_zoom.v4p" systemname="texture_zoom">
-   <BOUNDS height="13560" left="10575" top="180" type="Window" width="18795">
+   <BOUNDS height="13620" left="15690" top="300" type="Window" width="18795">
    </BOUNDS>
    <NODE componentmode="InABox" id="2" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
    <BOUNDS height="100" left="960" top="270" type="Node" width="100">
@@ -1827,7 +1827,7 @@
    </PIN>
    <PIN pinname="Color" slicecount="1" visible="1" values="|0.20000,0.20000,0.20000,1.00000|">
    </PIN>
-   <PIN pinname="Internal Value" slicecount="1" values="0.801339980363846">
+   <PIN pinname="Internal Value" slicecount="1" values="0.839731980164845">
    </PIN>
    <PIN pinname="Size X" visible="1">
    </PIN>
@@ -2655,7 +2655,7 @@
    <NODE componentmode="Hidden" filename="menu_select.v4p" id="379" nodename="menu_select.v4p" systemname="menu_select" path="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\">
    <BOUNDS height="100" left="255" top="7980" type="Node" width="100">
    </BOUNDS>
-   <BOUNDS height="8970" left="14160" top="6780" type="Window" width="11010">
+   <BOUNDS height="11310" left="15165" top="3600" type="Window" width="11010">
    </BOUNDS>
    <PIN pinname="x" visible="1">
    </PIN>
@@ -2884,6 +2884,42 @@
    <LINKPOINT x="1630" y="9855">
    </LINKPOINT>
    </LINK>
-   <LINK srcnodeid="275" srcpinname="Output" dstnodeid="379" dstpinname="y">
+   <LINK dstnodeid="379" dstpinname="y" srcnodeid="275" srcpinname="Output">
+   </LINK>
+   <NODE componentmode="Hidden" id="393" nodename="Intersect (Spreads Sets)" systemname="Intersect (Spreads Sets)">
+   <BOUNDS height="100" left="1905" top="9795" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Former Index 1" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="392" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="2250" top="10110" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="285" left="2250" top="10110" type="Box" width="405">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="392" dstpinname="Y Input Value" srcnodeid="393" srcpinname="Former Index 1">
+   </LINK>
+   <NODE componentmode="Hidden" filename="%VVVV%\plugins\SpreadOperations.dll" id="391" nodename="Cons (Spreads)" systemname="Cons (Spreads)">
+   <BOUNDS height="270" left="2100" top="9480" type="Node" width="555">
+   </BOUNDS>
+   <PIN pinname="Input 1" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Input 2" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="393" dstpinname="Input 2" srcnodeid="391" srcpinname="Output">
+   </LINK>
+   <LINK srcnodeid="379" srcpinname="menu" dstnodeid="393" dstpinname="Input 1">
    </LINK>
    </PATCH>
