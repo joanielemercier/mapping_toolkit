@@ -1,0 +1,209 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta26.dtd" >
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\angles\Angle (3d Vector) help.v4p" componentmode="InAWindow">
+   <BOUNDS height="5070" left="2730" top="1770" type="Window" width="10260">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="9" nodename="RENDERER (EX9)" systemname="Renderer (EX9)">
+   <BOUNDS height="0" left="180" top="945" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="5835" left="6975" top="45" type="Window" width="6465">
+   </BOUNDS>
+   <BOUNDS height="2550" left="180" top="945" type="Box" width="2730">
+   </BOUNDS>
+   <PIN pinname="View" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="Projection" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="DX9 Out" visible="1">
+   </PIN>
+   <PIN pinname="Depth Buffer" slicecount="1" values="1.00000">
+   </PIN>
+   <PIN pinname="Clear Depth Buffer" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Render Pass" slicecount="1" values="-31.00000">
+   </PIN>
+   <PIN pinname="Layers" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="8" nodename="IOBOX (VALUE ADVANCED)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="4500" top="2085" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="8220" top="3165" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="645" left="4500" top="2085" type="Box" width="885">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Vector2 XYZ|" encoded="0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="7" nodename="IOBOX (VALUE ADVANCED)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="3345" top="2085" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="8520" top="3465" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="645" left="3345" top="2085" type="Box" width="885">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="3" values="1,0,0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Vector1 XYZ|" encoded="0">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="3" values="1,0,0">
+   </PIN>
+   </NODE>
+   <NODE id="6" nodename="Cartesian (3d)" systemname="Cartesian (3d)">
+   <BOUNDS height="0" left="5340" top="1140" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="Yaw" visible="1">
+   </PIN>
+   <PIN pinname="Pitch" visible="1">
+   </PIN>
+   <PIN pinname="Length" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <NODE id="5" nodename="Vector (3d Join)" systemname="Vector (3d Join)">
+   <BOUNDS height="0" left="5340" top="1545" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="5" dstpinname="X" srcnodeid="6" srcpinname="X">
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="Y" srcnodeid="6" srcpinname="Y">
+   </LINK>
+   <LINK dstnodeid="5" dstpinname="Z" srcnodeid="6" srcpinname="Z">
+   </LINK>
+   <LINK dstnodeid="8" dstpinname="Y Input Value" srcnodeid="5" srcpinname="XYZ">
+   </LINK>
+   <NODE componentmode="InABox" id="4" nodename="IOBOX (VALUE ADVANCED)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="4200" top="525" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="5340" top="930" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="240" left="4200" top="525" type="Box" width="795">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="-0.28">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="6" dstpinname="Pitch" srcnodeid="4" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="InABox" id="3" nodename="IOBOX (VALUE ADVANCED)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="5250" top="525" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="5835" top="915" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="240" left="5250" top="525" type="Box" width="840">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0.36">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="6" dstpinname="Yaw" srcnodeid="3" srcpinname="Y Output Value">
+   </LINK>
+   <NODE id="1" nodename="Segment (DX9)" systemname="Segment (DX9)">
+   <BOUNDS height="0" left="3555" top="4140" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Cycles" visible="1">
+   </PIN>
+   <PIN pinname="Color" slicecount="1" visible="1" values="|0.85732,0.24048,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   <PIN pinname="Resolution" slicecount="1" values="12">
+   </PIN>
+   <PIN pinname="Render Pass" slicecount="1" values="-31.00000">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Inner Radius" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE id="0" nodename="Scale (Transform Vector)" systemname="Scale (Transform Vector)">
+   <BOUNDS height="0" left="3735" top="3390" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" slicecount="3" values="1.51,1.51,1.51">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="1" dstpinname="Transform" srcnodeid="0" srcpinname="Transform Out">
+   </LINK>
+   <LINK dstnodeid="9" dstpinname="Layers" linkstyle="VHV" srcnodeid="1" srcpinname="Layer">
+   <LINKPOINT x="3585" y="3675">
+   </LINKPOINT>
+   <LINKPOINT x="210" y="3675">
+   </LINKPOINT>
+   </LINK>
+   <NODE componentmode="InABox" id="10" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="195" top="165" type="Node" width="585">
+   </BOUNDS>
+   <BOUNDS height="360" left="195" top="165" type="Box" width="840">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="Angle" encoded="0">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="11" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="180" top="525" type="Node" width="2715">
+   </BOUNDS>
+   <BOUNDS height="270" left="180" top="525" type="Box" width="2715">
+   </BOUNDS>
+   <BOUNDS height="160" left="0" top="0" type="Window" width="215">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="0" values="|calculates the angle between vectors|" encoded="0">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE systemname="Angle (3d Vector)" filename="Angle (3d Vector).v4p" nodename="Angle (3d Vector)" componentmode="InAWindow" id="12">
+   <BOUNDS type="Node" left="6375" top="2925" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Vector1 XYZ" visible="1">
+   </PIN>
+   <PIN pinname="Vector2 XYZ" visible="1">
+   </PIN>
+   <PIN pinname="Phi (0 .. 0.5)" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Vector1 XYZ">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Y Output Value" dstnodeid="12" dstpinname="Vector2 XYZ">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Phi (0 .. 0.5)" dstnodeid="1" dstpinname="Cycles">
+   </LINK>
+   </PATCH>
