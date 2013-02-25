@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha29.1.dtd" >
-   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\include\MOUSE_DISTANCE.v4p" systemname="MOUSE_DISTANCE" filename="D:\dropbox\MAPPING TOOLKIT\SVG\include\MOUSE_DISTANCE.v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+   <PATCH nodename="D:\mapping_toolkit\MAPPING_TOOLKIT_SVG\include\MOUSE_DISTANCE.v4p" systemname="MOUSE_DISTANCE" filename="D:\dropbox\MAPPING TOOLKIT\SVG\include\MOUSE_DISTANCE.v4p">
    <BOUNDS type="Window" left="10815" top="5655" width="7635" height="6510">
    </BOUNDS>
    <NODE systemname="Vector (3d Join)" nodename="Vector (3d Join)" componentmode="Hidden" id="32">
@@ -254,14 +254,6 @@
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="mouse">
    </PIN>
    </NODE>
-   <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="37">
-   <BOUNDS type="Node" left="360" top="615" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="XY" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="36" srcpinname="Y Output Value" dstnodeid="37" dstpinname="XY">
-   </LINK>
    <LINK srcnodeid="36" srcpinname="Y Output Value" dstnodeid="26" dstpinname="Input 1">
    </LINK>
    <NODE systemname="Cons (Spreads)" nodename="Cons (Spreads)" componentmode="Hidden" id="33" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll">
