@@ -1003,7 +1003,7 @@
    </BOUNDS>
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Internal Value" slicecount="3" values="0.40962552742616,0.175553797468355,0.125395569620253">
+   <PIN pinname="Internal Value" slicecount="3" values="0.532200647249191,0.0835355987055015,0">
    </PIN>
    <PIN pinname="Slider Size" visible="1" slicecount="1" values="0.29">
    </PIN>
@@ -1097,7 +1097,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8535" top="3960" width="360" height="270">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="13">
+   <PIN pinname="Y Input Value" slicecount="1" values="12">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
