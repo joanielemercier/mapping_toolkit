@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
-   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - WARPING\release_0.2d_alpha\include\GUI.v4p" filename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\GUI.v4p" systemname="GUI">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_WARPING\include\GUI.v4p" filename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\include\GUI.v4p" systemname="GUI">
    <BOUNDS height="13620" left="15690" top="300" type="Window" width="18795">
    </BOUNDS>
    <NODE componentmode="InABox" id="2" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
@@ -43,7 +43,7 @@
    </BOUNDS>
    <BOUNDS height="1800" left="5280" top="10155" type="Box" width="2400">
    </BOUNDS>
-   <BOUNDS height="5280" left="0" top="0" type="Window" width="14445">
+   <BOUNDS height="5280" left="285" top="165" type="Window" width="14445">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>

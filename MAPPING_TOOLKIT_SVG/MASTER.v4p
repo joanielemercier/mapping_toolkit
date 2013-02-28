@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
    <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\MASTER.v4p" filename="D:\dropbox\MAPPING TOOLKIT\SVG\MASTER.v4p" systemname="MASTER">
-   <BOUNDS height="8745" left="1200" top="5475" type="Window" width="7815">
+   <BOUNDS height="8775" left="690" top="5340" type="Window" width="7275">
    </BOUNDS>
    <NODE componentmode="Hidden" id="7" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)">
    <BOUNDS height="100" left="360" top="5325" type="Node" width="100">
@@ -18,7 +18,7 @@
    <PIN pinname="Reload" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <NODE componentmode="Hidden" filename="include\ANIMATIONS.v4p" id="22" nodename="include\ANIMATIONS.v4p" systemname="ANIMATIONS" stayontop="0" border="1">
+   <NODE componentmode="Hidden" filename="include\ANIMATIONS.v4p" id="22" nodename="include\ANIMATIONS.v4p" systemname="ANIMATIONS" stayontop="0" border="1" debug="0">
    <BOUNDS height="270" left="3420" top="5340" type="Node" width="1680">
    </BOUNDS>
    <PIN pinname="Texture Out" visible="1">
@@ -27,7 +27,7 @@
    </PIN>
    <PIN pinname="enable" visible="1">
    </PIN>
-   <BOUNDS height="16380" left="675" top="3690" type="Window" width="18270">
+   <BOUNDS height="16380" left="540" top="6600" type="Window" width="18270">
    </BOUNDS>
    <PIN pinname="AR" visible="1" slicecount="1" values="1">
    </PIN>
@@ -63,7 +63,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="750" top="11130" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="14895" top="0" width="10995" height="11355">
+   <BOUNDS type="Window" left="15420" top="765" width="11985" height="10890">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -93,7 +93,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="3390" top="4155" width="1695" height="1125">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" values="|D:\projets\bangkok\simulation_svg [Converted].svg|">
+   <PIN pinname="Input String" slicecount="1" encoded="0" values="D:\projets\grand_palais\escaliers\Le_Grand_Palais_escalier_d&apos;honneur.svg">
    </PIN>
    <PIN pinname="Default" slicecount="1" encoded="0" values="file.svg">
    </PIN>
@@ -111,7 +111,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="360" top="4125" width="1560" height="1140">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" values="D:\projets\bangkok\simulation.jpg">
+   <PIN pinname="Input String" slicecount="1" encoded="0" values="|D:\projets\grand_palais\escaliers\Le_Grand_Palais,_escalier_d&apos;honneur_(restauré).JPG|">
    </PIN>
    <PIN pinname="Default" slicecount="1" encoded="0" values="image.jpg">
    </PIN>
@@ -1133,7 +1133,7 @@
    </PIN>
    </NODE>
    <NODE systemname="ShellExecute (Windows)" nodename="ShellExecute (Windows)" componentmode="Hidden" id="247">
-   <BOUNDS type="Node" left="5265" top="2835" width="100" height="100">
+   <BOUNDS type="Node" left="8040" top="8700" width="100" height="100">
    </BOUNDS>
    <PIN pinname="File" visible="1" slicecount="1" values="cmd.exe">
    </PIN>
@@ -1141,9 +1141,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="250" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="5265" top="2070" width="0" height="0">
+   <BOUNDS type="Node" left="8040" top="7935" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="5265" top="2070" width="480" height="480">
+   <BOUNDS type="Box" left="8040" top="7935" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
@@ -1161,9 +1161,9 @@
    <LINK srcnodeid="250" srcpinname="Y Output Value" dstnodeid="247" dstpinname="Do Execute">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="253" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="5265" top="2565" width="0" height="0">
+   <BOUNDS type="Node" left="8040" top="8430" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="5265" top="2565" width="795" height="240">
+   <BOUNDS type="Box" left="8040" top="8430" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" values="include\GUI\minimal_GUI.v4p">
    </PIN>
@@ -1179,9 +1179,9 @@
    <LINK srcnodeid="253" srcpinname="Output String" dstnodeid="247" dstpinname="File">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="254" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="5760" top="2115" width="795" height="270">
+   <BOUNDS type="Node" left="8535" top="7980" width="795" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="5760" top="2115" width="1545" height="345">
+   <BOUNDS type="Box" left="8535" top="7980" width="1545" height="345">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; OPEN GUI|">
    </PIN>
@@ -1195,7 +1195,9 @@
    </PIN>
    </NODE>
    <NODE systemname="minimal_GUI" filename="include\GUI\minimal_GUI.v4p" nodename="include\GUI\minimal_GUI.v4p" componentmode="Hidden" id="255">
-   <BOUNDS type="Node" left="3960" top="2055" width="100" height="100">
+   <BOUNDS type="Node" left="5265" top="2205" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="5415" top="4650" width="13245" height="10020">
    </BOUNDS>
    </NODE>
    </PATCH>
