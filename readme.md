@@ -1,6 +1,10 @@
 # Mapping Toolkit 
 
+<<<<<<< HEAD
 Developped by Joanie Lemercier (http://www.joanielemercier.com)
+=======
+Developped by Joanie Lemercier
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
 
 
 The mapping toolkit is a pack of patches / modules dedicated to projection mapping. The first two are:

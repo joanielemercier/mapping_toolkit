@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
    <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\include\Line (EX9.GPU).v4p" filename="C:\Users\colors1\Desktop\SplinesGPU\Line (gpu).v4p" systemname="Line (gpu)">
+=======
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="D:\develop\mapping-toolkit\MAPPING_TOOLKIT_SVG\include\Line (EX9.GPU).v4p" filename="C:\Users\colors1\Desktop\SplinesGPU\Line (gpu).v4p" systemname="Line (gpu)">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <BOUNDS height="6300" left="9900" top="7680" type="Window" width="8820">
    </BOUNDS>
    <NODE componentmode="Hidden" id="76" nodename="DynamicTexture (EX9.Texture Value)" systemname="DynamicTexture (EX9.Texture Value)">

@@ -1,6 +1,10 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
    <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\include\ANIMATIONS.v4p" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\include\ANIMATIONS.v4p" systemname="ANIMATIONS">
+<<<<<<< HEAD
    <BOUNDS height="16380" left="540" top="6600" type="Window" width="18270">
+=======
+   <BOUNDS height="16380" left="675" top="3690" type="Window" width="18270">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <NODE border="0" componentmode="Hidden" id="5" nodename="Renderer (EX9)" systemname="Renderer (EX9)">
    <BOUNDS height="270" left="255" top="15555" type="Node" width="2220">
@@ -1512,6 +1516,43 @@
    </NODE>
    <LINK srcnodeid="545" srcpinname="Y Output Value" dstnodeid="487" dstpinname="Enabled">
    </LINK>
+<<<<<<< HEAD
+=======
+   <NODE componentmode="Hidden" filename="%VVVV%\lib\nodes\modules\EX9\Line (EX9).v4p" id="546" nodename=":MODULES:\vvvv group\EX9\Line (EX9).v4p" systemname="Line (EX9)">
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Color" visible="1" slicecount="11" values="|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|,|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="To" visible="1" slicecount="1491" values="0.5,0,0">
+   </PIN>
+   <PIN pinname="From" visible="1" slicecount="1491" values="1026.135,417.324,921.631,416,824.531,0,974.784,450.918,921.631,416,951.36,481.401,921.631,511.694,951.36,481.401,914.424,687.595,914.424,674.419,919.604,731.538,914.424,456.964,898.207,494.126,833.117,376.784,824.531,0,0,728.838,0,713.522,910.819,416,0,655.64,898.207,494.126,914.424,426.819,904.514,732.762,863.072,753.135,885.595,675.883,880.64,608.332,885.595,675.883,895.628,705.838,921.631,416,889.463,411.018,871.18,452.234,911.721,456.964,914.424,687.595,885.595,518.784,872.756,402.065,0,831.935,130.838,0,889.463,411.018,904.514,732.762,122.729,0,0,645.73,0,826.586,0,644.153,885.595,572.729,51.559,0,904.514,530.838,889.463,555.162,0,485.144,904.514,530.838,916.338,743.797,883.297,703,895.628,463.425,885.595,675.883,911.721,456.964,878.387,724.645,895.628,705.838,839.648,559.217,0,486.496,0,720.392,872.756,402.065,833.117,508.315,0,736.045,885.595,518.784,871.18,452.234,839.648,559.217,0,473.883,879.176,593.017,846.855,481.961,879.176,593.017,0,723.207,875.685,603.811,0,659.018,0,469.378,192.802,386.862,863.072,697.729,0,439.648,895.628,463.425,851.811,638.045,856.766,730,885.595,518.784,839.648,637.294,839.648,559.217,863.072,697.729,880.64,608.332,0,435.595,910.819,416,833.117,376.784,846.855,416,846.855,416,826.586,452.234,0,441.901,0,426.135,856.766,663.271,833.117,697.729,833.117,724.645,856.766,730,820.955,805.387,839.986,658.555,839.648,637.294,846.855,481.961,844.941,761.036,809.124,501.671,826.586,452.234,856.766,663.271,863.072,753.135,0,434.919,863.072,697.729,803.05,658.555,0,430.978,895.628,463.425,0,632.441,752.262,610.117,182.189,0,839.648,559.217,824.221,403.135,833.117,724.645,796.405,508.315,0,613.072,769.378,554.707,775.685,332.64,160.369,690.567,824.531,0,734.469,240.522,819.405,773.865,809.124,501.671,0,521.18,0,431.541,0,632.893,833.117,508.315,815.324,692.099,0,603.613,851.811,638.045,805.527,716.5,805.527,716.5,797.982,425.207,0,463.072,0,616.9,759.469,476.784,839.648,559.217,0,452.261,0,652.148,797.982,757,803.05,779.486,786.834,791.648,833.117,724.645,170.729,349.757,775.685,332.64,759.469,367.521,834.581,692.989,819.405,773.865,811.149,688.604,0,637.848,808.117,692.989,0,415.099,0,433.229,820.729,381.852,824.221,403.135,771.124,688.604,0,705.865,803.05,658.555,809.216,0,797.982,757,811.149,688.604,759.469,476.784,797.982,757,826.586,765.072,773.883,408.653,771.124,688.604,833.117,376.784,773.883,645.252,773.883,645.252,0,700.009,791.648,0,914.424,456.964,752.262,809.216,165.072,0,0,739.187,820.729,381.852,786.834,748.198,773.883,408.653,736.045,439.467,751.36,538.946,0,662.283,759.469,476.784,786.834,791.648,797.982,757,839.648,637.294,786.834,748.198,728.838,730.387,776.342,0,773.865,0,728.838,251.559,734.469,240.522,814.171,0,759.469,331.739,811.149,688.604,819.126,0,771.124,688.604,815.324,692.099,745.729,653.267,779.486,0,745.729,684.19,803.811,0,717.576,565.973,751.36,538.946,757,0,675.234,208.766,723.207,332.64,721.18,298.631,706.315,411.018,728.838,251.559,723.207,332.64,734.469,638.045,752.262,610.117,761.036,0,717.576,565.973,694.153,582.414,706.315,572.279,783.995,0,728.838,730.387,765.072,0,759.469,367.521,786.834,748.198,751.559,0,736.045,683.09,739.396,0,713.522,743.5,717.576,680.57,734.469,638.045,746.898,0,717.576,540.748,684.693,797.729,706.315,411.018,674.784,468.676,732.762,0,768.243,0,684.693,797.729,694.153,582.414,664.096,606.547,694.153,495.703,745.729,653.267,717.576,680.57,640.324,175.657,717.576,680.57,719.576,0,681.991,392.099,721.18,298.631,694.153,305.613,724.645,0,736.045,683.09,687.396,266.536,615.1,88.496,717.324,0,727.234,0,694.153,702.91,694.153,549.757,706.315,679.884,675.234,208.766,712.2,0,718.9,0,687.396,266.536,640.324,730,710.162,0,707.414,0,0,797.982,0,629.289,0,627.036,0,612.622,226.585,712.2,0,820.955,0,819.405,706.536,0,0,755.414,180.838,0,703,0,175.657,0,0,786.834,169.126,0,648.657,414.171,0,173.883,182.415,0,0,354.292,0,759.469,0,812.225,0,440.549,0,773.883,0,348.658,0,446.856,0,824.221,0,379.739,160.369,690.567,207.667,655.986,194.802,0,0,386.496,0,420.729,0,402.148,0,402.334,0,390.55,0,803.612,658.567,456.063,0,549,146.405,688.604,0,745.729,0,800.516,0,751.36,0,543,0,407.703,0,409.468,0,579.176,0,552.373,0,587.967,137.144,0,0,132.441,0,554,0,578.388,0,368.87,0,581.991,0,509.919,0,815.324,0,569.378,0,833.117,170.729,349.757,0,808.117,0,811.149,0,717.576,0,694.153,0,668.928,0,675.234,0,725.009,0,670.279,149.757,0,0,775.685,0,580.189,0,658.567,0,642.802,0,620.729,0,682.217,0,690.1,0,664.096,0,668.478,0,681.991,0,709.919,0,379.288,0,373.207,0,367.577,0,252.016,0,251.36,0,192.802,0,189.086,0,282.892,0,332.626,0,326.135,0,201.809,0,232.216,0,226.585,0,209.018,0,254.821,0,195.646,0,320.729,0,321.462,0,295.366,0,297.844,0,198.714,0,197.306,0,210.819,0,213.605,0,223.545,0,334.426,0,334.974,0,262.847,0,270.504,0,273.883,0,319.829,0,313.748,0,279.288,0,246.405,0,291.606,0,292.802,0,257.626,0,219.544,0,222.757,0,187.847,0,364.532,0,173.883,0,389.198,0,278.388,0,300.321,0,307.84,0,312.314,0,182.892,0,207.667,0,260.369,0,210.816,0,195.279,0,237.847,0,344.153,0,339.563,0,556.766,0,413.072,0,346.405,0,349.223,0,528.838,0,533.567,0,606.766,0,612.622,0,548.5,0,594.604,0,559,0,545.955,0,586.495,0,584.979,0,577.036,0,574.784,0,563.288,0,590.099,0,567.576,0,597.307,0,589.791,0,527.373,160.369,690.567,219.941,361.215,665.386,653.267,675.234,678.135,251.559,0,219.941,361.215,192.802,386.862,665.386,653.267,247.054,0,237.847,687.594,0,846.855,251.36,645.252,0,844.941,187.847,684.217,694.153,702.91,0,921.631,170.729,349.757,235.342,0,0,892.802,230.07,636.769,188.495,0,224.333,598.405,219.544,690.567,0,839.648,160.369,708.315,0,885.595,300.321,645.252,187.847,695.297,227.234,0,230.07,402.065,282.892,658.315,224.081,0,265.324,431.96,681.991,392.099,203.811,0,0,527.373,0,521.18,0,481.611,192.576,437.518,197.306,403.135,0,499.108,212.82,0,182.892,577.809,146.405,688.604,160.369,690.567,226.585,712.2,220.027,0,197.306,516.424,213.605,702.91,699.756,0,697.729,0,208.343,508.315,697.055,0,187.847,695.297,209.018,691.198,219.544,690.567,192.576,437.518,197.306,516.424,182.892,577.809,197.306,521.829,692.989,0,675.234,678.135,209.018,691.198,207.667,655.986,215.324,653.267,217.126,558.766,197.306,521.829,170.729,349.757,218.225,0,215.324,653.267,278.388,414.171,642.802,309.667,215.324,653.267,224.333,598.405,207.667,655.986,192.576,437.518,230.07,402.065,427.824,309.667,213.605,702.91,224.333,378.022,246.405,730,235.342,0,230.07,636.769,251.36,645.252,237.847,717.324,399.784,341.648,224.333,378.022,244.153,356.514,215.324,653.267,702.91,0,0,869.379,706.315,679.884,0,872.756,0,856.766,0,867.126,0,904.514,0,854.964,192.802,718.9,0,951.36,0,863.072,0,875.685,273.883,675.883,0,927.937,0,900.009,0,939.648,0,924.783,0,914.424,273.883,675.883,278.388,378.022,0,910.819,0,913.072,634.243,516.424,226.585,719.576,252.016,739.396,0,909.469,0,933.343,0,889.463,0,895.628,241.451,411.018,282.892,719.576,251.36,645.252,267.126,621.754,648.657,547.955,230.07,402.065,249.108,369.126,717.576,540.748,241.451,411.018,257.626,425.207,320.729,671.379,648.657,547.955,254.821,616.424,403.135,0,257.626,678.135,305.613,0,736.045,439.467,248.883,682.189,254.821,616.424,237.847,717.324,367.577,739.396,249.108,369.126,666.676,579.486,244.153,356.514,262.847,392.099,257.626,425.207,252.016,739.396,292.802,476.784,246.405,730,273.883,699.756,305.415,500.433,273.883,699.756,224.333,598.405,224.333,538.946,217.126,558.766,217.126,468.676,208.343,508.315,265.324,431.96,237.847,439.467,300.321,442.099,352.937,697.729,300.321,645.252,316.788,618,267.126,621.754,0,974.784,373.207,665.973,0,958.342,257.626,765.072,304.081,768.243,282.892,741.198,257.626,765.072,244.153,356.514,292.802,476.784,627.036,357.865,224.333,538.946,690.567,0,687.595,0,685.484,0,300.321,783.995,278.388,378.022,305.415,529.934,282.892,580.64,267.126,621.754,320.729,671.379,300.321,442.099,344.153,791.648,658.567,242.549,300.321,645.252,282.892,719.576,282.892,741.198,433.541,0,300.321,673.546,244.153,356.514,666.676,579.486,674.784,468.676,694.153,495.703,316.788,618,320.729,671.379,632.441,739.396,408.991,0,313.748,374.982,313.748,779.486,278.388,414.171,771.124,688.604,391.901,508.315,398.207,628.285,640.324,730,337.396,361.215,678.135,0,348.658,633.165,683.09,0,305.415,500.433,319.829,458.09,328.951,692.099,675.234,208.766,339.563,669.186,627.036,357.865,313.748,779.486,367.577,739.396,339.563,669.186,634.693,374.982,426.819,0,348.658,633.165,337.396,361.215,344.153,791.648,344.153,652.91,402.065,0,379.739,538.946,442.099,0,389.198,384.441,655.64,696.738,360.369,666.874,694.153,549.757,304.081,768.243,687.396,266.536,316.788,618,674.419,0,658.567,456.063,711.288,0,348.658,633.165,344.153,422.279,319.829,458.09,348.658,502.91,305.415,529.934,644.153,673.181,398.207,628.285,379.739,616.424,671.379,0,348.658,502.91,669.186,0,364.532,372.673,364.532,372.673,344.153,422.279,667.549,0,379.288,442.099,367.577,739.396,379.739,538.946,379.288,442.099,665.973,0,616.9,42.549,386.919,0,399.784,663.271,409.468,665.973,352.937,697.729,586.495,508.315,665.386,653.267,337.396,361.215,398.207,751.559,663.843,0,413.072,518.784,640.324,175.657,364.532,372.673,391.901,551.559,391.901,508.315,379.739,538.946,463.072,268,648.657,655.986,399.784,341.648,399.784,663.271,287.595,0,265.072,0,257.414,0,261.018,0,270.478,0,268,0,278.586,0,386.862,0,409.567,0,380.387,0,392.099,0,381.852,0,372.673,0,395.703,0,362.369,0,353.811,0,398.856,0,376.784,0,367.324,0,357.865,0,348.856,0,340.297,0,648.657,589,431.541,422.279,332.64,0,341.648,0,417.55,0,408.653,0,422.279,0,412.82,0,426.784,0,244.153,356.514,320.703,0,309.667,0,420.729,383.625,637.848,598.405,420.729,570.92,379.739,616.424,398.207,628.285,648.657,547.955,437.518,0,386.496,403.135,337.396,361.215,429.401,227.234,431.541,613.27,692.099,0,659.667,0,426.819,0,656.964,0,432.75,0,655.64,218.225,420.729,660.567,399.784,341.648,431.541,242.549,648.657,414.171,435.567,0,567.576,448.856,436.243,0,420.729,642.625,435.595,278.586,420.729,570.92,398.207,751.559,439.467,0,586.495,508.315,515.605,203.811,567.576,458.09,409.468,665.973,420.729,660.567,443.703,691.198,653.267,0,379.288,442.099,431.541,422.279,515.605,603.811,481.611,628.285,648.657,589,429.401,227.234,627.036,194.802,496.405,530.838,628.285,0,427.824,340.297,420.729,383.625,640.324,175.657,515.605,203.811,439.648,587.595,431.541,613.27,427.824,309.667,608.117,287.595,509.919,592.099,655.986,0,431.541,242.549,443.703,691.198,398.207,751.559,481.611,628.285,499.108,645.252,651.596,0,648.218,0,491.45,235.342,427.824,340.297,413.072,518.784,431.541,494.126,648.657,547.955,420.729,570.92,595.505,579.486,439.648,587.595,481.611,247.054,642.802,618,597.307,253.811,642.802,218.225,634.243,516.424,429.401,227.234,431.541,242.549,463.072,268,463.072,610.117,463.072,717.324,491.45,235.342,496.405,530.838,443.703,691.198,499.108,645.252,429.401,227.234,574.784,386.919,521.18,341.648,673.181,0,675.883,0,509.919,656.964,496.405,530.838,431.541,494.126,473.883,565.973,463.072,610.117,446.856,633.165,450.918,0,645.252,0,446.856,447.955,642.625,0,452.261,392.099,675.234,208.766,499.108,708.315,509.919,592.099,448.856,0,442.549,0,447.955,0,543,703,431.541,494.126,446.856,447.955,456.063,0,473.883,305.613,625.457,671.379,608.117,287.595,499.108,708.315,509.919,592.099,481.611,628.285,620.729,599.825,503.838,270.478,496.405,585.793,536.687,188.495,515.605,203.811,468,0,512.621,628.285,472.729,0,556.766,159.667,572.982,362.369,512.621,628.285,515.605,603.811,503.838,270.478,521.18,341.648,627.036,194.802,581.991,235.342,533.567,222.729,533.567,222.729,521.18,341.648,625.457,671.379,509.919,656.964,479.937,0,488.271,0,644.153,673.181,574.784,348.856,660.567,0,638.045,0,620.729,165.072,462.37,0,456.063,0,474.616,0,520.928,0,534.439,0,498.432,0,615.1,88.496,567.576,702.91,468.676,0,499.306,0,490.973,0,476.784,0,491.198,0,518.784,0,529.934,0,515.072,0,523.631,0,502.91,0,633.165,0,473.631,0,494.126,0,514.621,0,664.096,606.547,646,0,346.405,803.811,373.207,791.648,415.099,776.342,446.856,761.036,548.5,287.595,521.18,479.937,496.405,530.838,615.1,88.496,546,331.739,652.76,0,625.457,671.379,546,331.739,536.687,188.495,521.18,479.937,521.18,395.703,521.18,479.937,543,703,543.252,687.595,546,331.739,554,589,552.373,616.424,597.307,253.811,586.495,508.315,521.18,395.703,594.604,649.757,610.117,0,655.64,218.225,521.18,341.648,578.388,270.478,548.5,287.595,587.967,165.072,642.802,618,571.18,380.387,521.18,395.703,567.576,702.91,567.576,173.18,625.508,0,627.036,357.865,581.991,636.769,563.288,203.811,622.729,0,637.848,598.405,556.766,159.667,590.1,652.76,567.576,458.09,581.991,235.342,594.604,649.757,585.595,183.991,694.153,549.757,682.189,0,595.505,579.486,572.64,628.285,599.825,0,577.809,0,555.865,558.766,563.288,203.811,533.567,222.729,545.955,638.045,608.117,287.595,567.576,173.18,567.576,173.18,579.036,0,748.198,0,575.685,348.856,569.167,426.784,559,520.928,554,589,572.982,362.369,581.991,149.757,603.811,0,590.1,667.97,543.252,687.595,545.955,638.045,581.991,636.769,556.766,159.667,612.622,57.865,534.439,0,540.748,0,572.64,628.285,581.991,636.769,538.946,0,570.92,0,564.172,0,572.279,0,577.809,0,574.979,0,547.955,0,554.707,0,551.559,0,565.973,0,558.766,0,543.442,0,559.217,0,585.793,0,606.964,0,598.405,0,606.547,0,610.117,0,612.622,57.865,618,0,582.414,0,592.099,0,589,0,608.117,182.189,584.979,188.495,620.729,599.825,629.336,0,634.693,374.982,620.729,165.072,581.991,149.757,587.967,165.072">
+   </PIN>
+   <BOUNDS height="0" left="945" top="7620" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="3600" left="945" top="7620" type="Box" width="4800">
+   </BOUNDS>
+   <BOUNDS height="6000" left="9900" top="7680" type="Window" width="9000">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Single Input" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="VerticesXYZ" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Width" slicecount="100" visible="1" values="1.76">
+   </PIN>
+   <PIN pinname="Enabled" slicecount="1" visible="1" values="1">
+   </PIN>
+   <PIN pinname="BinSize" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Transform Each Bin" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Antialias" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Render State" visible="1">
+   </PIN>
+   </NODE>
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="551">
    <BOUNDS type="Node" left="870" top="14805" width="630" height="270">
    </BOUNDS>
@@ -1653,11 +1694,11 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="Layer Template Count" slicecount="1" values="5">
+   <PIN pinname="Layer Template Count" slicecount="1" values="4">
    </PIN>
    <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
+   <PIN pinname="Layer 5" visible="1">
    </PIN>
    <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
    </PIN>
@@ -2001,7 +2042,11 @@
    <LINK srcnodeid="536" srcpinname="XYZ" dstnodeid="535" dstpinname="VerticesXYZ">
    </LINK>
    <NODE systemname="Line (EX9)" filename="%VVVV%\lib\nodes\modules\EX9\Line (EX9).v4p" nodename="Line (EX9)" componentmode="Hidden" id="677">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="13770" top="3915" width="100" height="100">
+=======
+   <BOUNDS type="Node" left="13770" top="4545" width="100" height="100">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Transform" visible="1" slicecount="1" values="||">
    </PIN>
@@ -2033,7 +2078,11 @@
    </PIN>
    </NODE>
    <NODE systemname="Vector (2d Join)" nodename="Vector (2d Join)" componentmode="Hidden" id="707">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="13980" top="3210" width="100" height="100">
+=======
+   <BOUNDS type="Node" left="13980" top="3840" width="100" height="100">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="X" visible="1">
    </PIN>
@@ -2443,9 +2492,15 @@
    </PIN>
    </NODE>
    <NODE systemname="MOUSE_DISTANCE" filename="MOUSE_DISTANCE.v4p" componentmode="Hidden" id="877" nodename="MOUSE_DISTANCE.v4p">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="13980" top="3525" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="13980" top="3525" width="4800" height="3600">
+=======
+   <BOUNDS type="Node" left="13980" top="4155" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="13980" top="4155" width="4800" height="3600">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <BOUNDS type="Window" left="10815" top="5655" width="7635" height="6510">
    </BOUNDS>
@@ -2475,7 +2530,11 @@
    </PIN>
    </NODE>
    <NODE systemname="Vector (2d Join)" nodename="Vector (2d Join)" componentmode="Hidden" id="878">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="14655" top="3195" width="100" height="100">
+=======
+   <BOUNDS type="Node" left="14655" top="3825" width="100" height="100">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="X" visible="1">
    </PIN>
@@ -2497,9 +2556,15 @@
    <LINK srcnodeid="877" srcpinname="to" dstnodeid="677" dstpinname="From">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="880" systemname="IOBox (String)">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="13740" top="4200" width="525" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="13740" top="4200" width="2265" height="375">
+=======
+   <BOUNDS type="Node" left="13740" top="4830" width="525" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="13740" top="4830" width="2265" height="375">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|SPIDER MOUSE|">
    </PIN>
@@ -2618,12 +2683,20 @@
    </NODE>
    <LINK srcnodeid="965" srcpinname="Count" dstnodeid="966" dstpinname="Y Input Value">
    </LINK>
+<<<<<<< HEAD
    <NODE systemname="ANIMATIONS_CONTROLLER" filename="ANIMATIONS_CONTROLLER.v4p" componentmode="InAWindow" id="982" nodename="ANIMATIONS_CONTROLLER.v4p">
+=======
+   <NODE systemname="ANIMATIONS_CONTROLLER" filename="ANIMATIONS_CONTROLLER.v4p" componentmode="Hidden" id="982" nodename="ANIMATIONS_CONTROLLER.v4p">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <BOUNDS type="Node" left="8145" top="2235" width="2280" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="8145" top="2235" width="4800" height="3600">
    </BOUNDS>
+<<<<<<< HEAD
    <BOUNDS type="Window" left="6780" top="0" width="3870" height="2460">
+=======
+   <BOUNDS type="Window" left="7965" top="195" width="4365" height="6675">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="mode" visible="1">
    </PIN>
@@ -2738,6 +2811,23 @@
    </LINK>
    <LINK srcnodeid="860" srcpinname="value" dstnodeid="990" dstpinname="Input" linkstyle="PolyLine" hiddenwhenlocked="1">
    </LINK>
+<<<<<<< HEAD
+=======
+   <NODE systemname="Vector (3d Split)" nodename="Vector (3d Split)" componentmode="Hidden" id="994">
+   <BOUNDS type="Node" left="9465" top="4305" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="XYZ" visible="1" slicecount="3" values="1.09,1.66,1.8">
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="994" srcpinname="Z" dstnodeid="985" dstpinname="Y Input Value" linkstyle="PolyLine" hiddenwhenlocked="1">
+   </LINK>
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="996" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="1830" top="1800" width="0" height="0">
    </BOUNDS>
@@ -2803,7 +2893,11 @@
    </PIN>
    </NODE>
    <NODE componentmode="Hidden" id="1015" nodename="OnOpen (VVVV)" systemname="OnOpen (VVVV)">
+<<<<<<< HEAD
    <BOUNDS height="0" left="2280" top="1050" type="Node" width="0">
+=======
+   <BOUNDS height="0" left="2085" top="1110" type="Node" width="0">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Bang" visible="1">
    </PIN>
@@ -3249,9 +3343,15 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="1062" systemname="IOBox (Color)">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="15570" top="2850" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="15570" top="2850" width="285" height="240">
+=======
+   <BOUNDS type="Node" left="15570" top="3480" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15570" top="3480" width="285" height="240">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
@@ -3259,7 +3359,11 @@
    <LINK srcnodeid="1062" srcpinname="Color Output" dstnodeid="677" dstpinname="Color">
    </LINK>
    <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="1063">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="14805" top="2865" width="100" height="100">
+=======
+   <BOUNDS type="Node" left="14805" top="3495" width="100" height="100">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="XY" visible="1">
    </PIN>
@@ -3269,9 +3373,15 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="982" srcpinname="spider_mouse" dstnodeid="1063" dstpinname="XY" linkstyle="Bezier" hiddenwhenlocked="1">
+<<<<<<< HEAD
    <LINKPOINT x="9960" y="2743">
    </LINKPOINT>
    <LINKPOINT x="14535" y="2598">
+=======
+   <LINKPOINT x="9960" y="2953">
+   </LINKPOINT>
+   <LINKPOINT x="14535" y="3018">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="1063" srcpinname="X" dstnodeid="677" dstpinname="Enabled">
@@ -3279,9 +3389,15 @@
    <LINK srcnodeid="1063" srcpinname="Y" dstnodeid="877" dstpinname="lenght">
    </LINK>
    <NODE id="912" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
+<<<<<<< HEAD
    <BOUNDS type="Node" left="15390" top="3270" width="555" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="15390" top="3270" width="555" height="270">
+=======
+   <BOUNDS type="Node" left="15390" top="3900" width="555" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15390" top="3900" width="555" height="270">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="NOISE">
    </PIN>
@@ -3344,6 +3460,11 @@
    </LINK>
    <LINK srcnodeid="677" srcpinname="Layer" dstnodeid="17" dstpinname="Layer 11" linkstyle="PolyLine" hiddenwhenlocked="1">
    </LINK>
+<<<<<<< HEAD
+=======
+   <LINK srcnodeid="994" srcpinname="X" dstnodeid="546" dstpinname="Width">
+   </LINK>
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <NODE id="1070" systemname="MonoFlop (Animation)" nodename="MonoFlop (Animation)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Output" visible="1" pintype="Output">
    </PIN>
@@ -3470,6 +3591,33 @@
    </LINK>
    <LINK srcnodeid="1076" srcpinname="Y 2" dstnodeid="1081" dstpinname="Y">
    </LINK>
+<<<<<<< HEAD
+=======
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1082" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="15390" top="7260" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15390" top="7260" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="3" visible="1" values="1,0.16,0.4">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="1082" srcpinname="Y Output Value" dstnodeid="1078" dstpinname="Enabled">
+   </LINK>
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    <NODE systemname="Vector (3d Join)" nodename="Vector (3d Join)" componentmode="Hidden" id="1089">
    <BOUNDS type="Node" left="14883" top="6513" width="100" height="100">
    </BOUNDS>
@@ -3527,7 +3675,11 @@
    </PIN>
    <PIN pinname="Input" slicecount="30" visible="1" values="|0.45134,0.45134,0.45134,1.00000|">
    </PIN>
+<<<<<<< HEAD
    <PIN pinname="Alpha" slicecount="1" visible="1" values="1">
+=======
+   <PIN pinname="Alpha" slicecount="1" visible="1" values="0.47">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    </NODE>
    <NODE systemname="TogEdge (Animation)" nodename="TogEdge (Animation)" componentmode="Hidden" id="1096">
@@ -3556,6 +3708,7 @@
    </NODE>
    <LINK srcnodeid="894" srcpinname="Output" dstnodeid="1094" dstpinname="Input">
    </LINK>
+<<<<<<< HEAD
    <NODE systemname="MonoFlop (Animation)" nodename="MonoFlop (Animation)" componentmode="Hidden" id="1106">
    <BOUNDS type="Node" left="14955" top="5565" width="100" height="100">
    </BOUNDS>
@@ -3744,6 +3897,10 @@
    </LINK>
    <NODE systemname="OSC_Receive" filename="GUI\OSC_Receive.v4p" nodename="GUI\OSC_Receive.v4p" componentmode="Hidden" id="1144" debug="0">
    <BOUNDS type="Node" left="11220" top="1320" width="100" height="100">
+=======
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1102" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="16035" top="7350" width="525" height="270">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="values" visible="1">
    </PIN>
@@ -3862,19 +4019,27 @@
    </LINK>
    <LINK srcnodeid="1094" srcpinname="Output" dstnodeid="1151" dstpinname="Color">
    </LINK>
+<<<<<<< HEAD
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1158" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="10095" top="240" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="10095" top="240" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="0">
+=======
+   <NODE systemname="Vector (3d Split)" nodename="Vector (3d Split)" componentmode="Hidden" id="1126">
+   <BOUNDS type="Node" left="15393" top="6900" width="570" height="270">
+   </BOUNDS>
+   <PIN pinname="XYZ" visible="1">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
+   <PIN pinname="X" visible="1">
    </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
+   <PIN pinname="Y" visible="1">
    </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   <PIN pinname="Z" visible="1">
    </PIN>
+<<<<<<< HEAD
    <PIN pinname="Behavior" slicecount="1" values="Bang">
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
@@ -3902,14 +4067,64 @@
    <BOUNDS type="Box" left="10605" top="300" width="1215" height="270">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; bug fft: reset|">
+=======
+   </NODE>
+   <LINK srcnodeid="982" srcpinname="delaunay" dstnodeid="1126" dstpinname="XYZ" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="10695" y="4655">
+   </LINKPOINT>
+   <LINKPOINT x="15120" y="4720">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1126" srcpinname="X" dstnodeid="1082" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="982" srcpinname="shift_speed" dstnodeid="860" dstpinname="shift speed" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="8940" y="2963">
+   </LINKPOINT>
+   <LINKPOINT x="11565" y="2963">
+   </LINKPOINT>
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1131" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="7275" top="16965" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7275" top="16965" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Output String" visible="0">
+   <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
+   <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="1131" srcpinname="Y Output Value" dstnodeid="1075" dstpinname="Input 2">
+   </LINK>
+   <NODE systemname="Vector (2d Join)" nodename="Vector (2d Join)" componentmode="Hidden" id="1132">
+   <BOUNDS type="Node" left="16260" top="4125" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="XY" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Vector (3d Split)" nodename="Vector (3d Split)" componentmode="Hidden" id="1127">
+   <BOUNDS type="Node" left="16260" top="3780" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="XY" visible="1">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="XYZ" visible="1" slicecount="3" values="0,0,0">
+   </PIN>
+   <PIN pinname="Z" visible="1">
+   </PIN>
+   </NODE>
+<<<<<<< HEAD
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1161" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="11895" top="2475" width="0" height="0">
    </BOUNDS>
@@ -3932,6 +4147,16 @@
    </LINK>
    <NODE systemname="Vector (4d Split)" nodename="Vector (4d Split)" componentmode="Hidden" id="994">
    <BOUNDS type="Node" left="9555" top="3840" width="810" height="270">
+=======
+   <LINK srcnodeid="1127" srcpinname="X" dstnodeid="1132" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="1127" srcpinname="Y" dstnodeid="1132" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="1132" srcpinname="XY" dstnodeid="877" dstpinname="variables">
+   </LINK>
+   <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="1130">
+   <BOUNDS type="Node" left="7440" top="5145" width="100" height="100">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="XYZ" visible="1">
    </PIN>
@@ -3939,13 +4164,14 @@
    </PIN>
    <PIN pinname="Y" visible="1">
    </PIN>
-   <PIN pinname="Z" visible="1">
+   <PIN pinname="XY" visible="1" slicecount="1" values="3">
    </PIN>
    <PIN pinname="XYZW" visible="1">
    </PIN>
    <PIN pinname="W" visible="1">
    </PIN>
    </NODE>
+<<<<<<< HEAD
    <LINK srcnodeid="994" srcpinname="Z" dstnodeid="985" dstpinname="Y Input Value" linkstyle="PolyLine" hiddenwhenlocked="1">
    </LINK>
    <LINK srcnodeid="994" srcpinname="Y" dstnodeid="834" dstpinname="scale">
@@ -4005,6 +4231,167 @@
    <LINK srcnodeid="1165" srcpinname="Output Enum" dstnodeid="1146" dstpinname="source">
    </LINK>
    <LINK srcnodeid="1149" srcpinname="Layer" dstnodeid="567" dstpinname="Layer 1">
+=======
+   <LINK srcnodeid="1130" srcpinname="X" dstnodeid="992" dstpinname="Switch">
+   </LINK>
+   <LINK srcnodeid="1130" srcpinname="Y" dstnodeid="989" dstpinname="Input">
+   </LINK>
+   <NODE systemname="Unzip (Value Bin)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (Value Bin)" componentmode="Hidden" id="1134">
+   <BOUNDS type="Node" left="11070" top="1725" width="2100" height="270">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="17" values="3,0">
+   </PIN>
+   <PIN pinname="Input Bin Size" visible="1" slicecount="7" values="1,1,3,3,6,1,3,1,2">
+   </PIN>
+   <PIN pinname="Output Count" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Output 1" visible="1">
+   </PIN>
+   <PIN pinname="Output 2" visible="1">
+   </PIN>
+   <PIN pinname="Output 3" visible="1">
+   </PIN>
+   <PIN pinname="Output 4" visible="1">
+   </PIN>
+   <PIN pinname="Output 5" visible="1">
+   </PIN>
+   <PIN pinname="Output 6" visible="1">
+   </PIN>
+   <PIN pinname="Output 8" visible="1">
+   </PIN>
+   <PIN pinname="Output 7" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="EQ (Value)" nodename="EQ (Value)" componentmode="Hidden" id="1137">
+   <BOUNDS type="Node" left="9219" top="4647" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Inverse Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="994" srcpinname="X" dstnodeid="1137" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="1137" srcpinname="Inverse Output" dstnodeid="546" dstpinname="Enabled">
+   </LINK>
+   <NODE systemname="EQ (Value)" nodename="EQ (Value)" componentmode="Hidden" id="1138">
+   <BOUNDS type="Node" left="9711" top="4647" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Inverse Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="994" srcpinname="Y" dstnodeid="1138" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="1138" srcpinname="Inverse Output" dstnodeid="834" dstpinname="Enabled">
+   </LINK>
+   <NODE systemname="EQ (Value)" nodename="EQ (Value)" componentmode="Hidden" id="1139">
+   <BOUNDS type="Node" left="10206" top="4659" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Inverse Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="994" srcpinname="Z" dstnodeid="1139" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="1139" srcpinname="Inverse Output" dstnodeid="831" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 1" dstnodeid="844" dstpinname="grow_mode" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="11030" y="2625">
+   </LINKPOINT>
+   <LINKPOINT x="8320" y="2790">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 2" dstnodeid="860" dstpinname="color_mode" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="11345" y="2625">
+   </LINKPOINT>
+   <LINKPOINT x="10330" y="2790">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 3" dstnodeid="994" dstpinname="XYZ" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="11930" y="3020">
+   </LINKPOINT>
+   <LINKPOINT x="9295" y="3250">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 4" dstnodeid="844" dstpinname="start_end" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="11975" y="2618">
+   </LINKPOINT>
+   <LINKPOINT x="9970" y="2783">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 5" dstnodeid="860" dstpinname="GAIN" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="12290" y="2625">
+   </LINKPOINT>
+   <LINKPOINT x="10660" y="2790">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 6" dstnodeid="1127" dstpinname="XYZ" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="12935" y="2758">
+   </LINKPOINT>
+   <LINKPOINT x="16030" y="2988">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1134" srcpinname="Output 7" dstnodeid="1130" dstpinname="XY" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="13190" y="3440">
+   </LINKPOINT>
+   <LINKPOINT x="7270" y="3670">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="1126" srcpinname="Y" dstnodeid="1094" dstpinname="Alpha">
+   </LINK>
+   <LINK srcnodeid="1126" srcpinname="Z" dstnodeid="1078" dstpinname="Width">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="1143" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="10845" top="4320" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="10845" top="4320" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="994" srcpinname="Z" dstnodeid="1143" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="1127" srcpinname="Z" dstnodeid="1131" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="OSC_Receive" filename="GUI\OSC_Receive.v4p" nodename="GUI\OSC_Receive.v4p" componentmode="Hidden" id="1144">
+   <BOUNDS type="Node" left="11220" top="1320" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="values" visible="1">
+   </PIN>
+   <PIN pinname="bin_values" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="2055" top="8130" width="6540" height="7350">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="1144" srcpinname="values" dstnodeid="1134" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="1144" srcpinname="bin_values" dstnodeid="1134" dstpinname="Input Bin Size">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1145" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="12555" top="1320" width="1515" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="12555" top="1320" width="1515" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; VALUES FROM GUI|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="982" srcpinname="source" dstnodeid="860" dstpinname="source" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="8205" y="2963">
+   </LINKPOINT>
+   <LINKPOINT x="11235" y="2963">
+   </LINKPOINT>
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="1166" systemname="IOBox (String)">
    <BOUNDS type="Node" left="2100" top="6555" width="2055" height="480">

@@ -1003,7 +1003,11 @@
    </BOUNDS>
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
+<<<<<<< HEAD
    <PIN pinname="Internal Value" slicecount="4" values="0.233899676375405,0.106169093851132,0.0584749190938507,0">
+=======
+   <PIN pinname="Internal Value" slicecount="3" values="0.532200647249191,0.0835355987055015,0">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    <PIN pinname="Slider Size" visible="1" slicecount="1" values="0.29">
    </PIN>

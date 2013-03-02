@@ -1,13 +1,21 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
    <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\include\GUI\minimal_GUI.v4p" locked="0" systemname=" (GUI))" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\sandbox\(GUI) sandbox.v4p">
+<<<<<<< HEAD
    <BOUNDS height="10020" left="5415" top="4650" type="Window" width="13245">
+=======
+   <BOUNDS height="10020" left="420" top="1245" type="Window" width="13245">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <NODE componentmode="InAWindow" id="28" nodename="RENDERER (EX9)" systemname="Renderer (EX9)">
    <BOUNDS height="270" left="300" top="11100" type="Node" width="2385">
    </BOUNDS>
    <BOUNDS height="1800" left="300" top="11100" type="Box" width="2400">
    </BOUNDS>
+<<<<<<< HEAD
    <BOUNDS height="5235" left="360" top="0" type="Window" width="6435">
+=======
+   <BOUNDS height="5235" left="8805" top="150" type="Window" width="6435">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -2977,9 +2985,15 @@
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="492" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="10545" top="7176" width="0" height="0">
    </BOUNDS>
+<<<<<<< HEAD
    <BOUNDS type="Box" left="10545" top="7176" width="315" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1" slicecount="1" values="163">
+=======
+   <BOUNDS type="Box" left="10545" top="7176" width="570" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1" slicecount="1" values="159">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -3273,9 +3287,15 @@
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="513" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
    <BOUNDS type="Node" left="13758" top="7035" width="0" height="0">
    </BOUNDS>
+<<<<<<< HEAD
    <BOUNDS type="Box" left="13758" top="7035" width="390" height="270">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1" slicecount="1" values="182">
+=======
+   <BOUNDS type="Box" left="13758" top="7035" width="570" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1" slicecount="1" values="177">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -4775,7 +4795,11 @@
    <LINK srcnodeid="608" srcpinname="Count" dstnodeid="585" dstpinname="Input 7 Bin Size">
    </LINK>
    <NODE id="622" systemname="OSC_Send" filename="include\GUI\OSC_Send.v4p" nodename="include\GUI\OSC_Send.v4p" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+<<<<<<< HEAD
    <BOUNDS type="Window" left="7710" top="9810" width="6525" height="4965">
+=======
+   <BOUNDS type="Window" left="2280" top="8880" width="6525" height="4965">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </BOUNDS>
    <BOUNDS type="Node" left="7485" top="14730" width="100" height="100">
    </BOUNDS>

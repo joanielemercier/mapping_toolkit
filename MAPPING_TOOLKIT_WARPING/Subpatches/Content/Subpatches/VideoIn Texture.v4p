@@ -1,0 +1,113 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+   <PATCH nodename="C:\Users\Uberact\Dropbox\shared\MAPPING_TOOLKIT_WARPING\include\Content\Subpatches\VideoIn Texture.v4p" systemname="VideoIn Texture" filename="C:\Users\Uberact\Dropbox\shared\MAPPING_TOOLKIT_WARPING\include\Content\Subpatches\VideoIn Texture.v4p">
+   <BOUNDS type="Window" left="18540" top="6660" width="4470" height="5340">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="0" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="2250" top="3570" type="Node" width="720">
+   </BOUNDS>
+   <BOUNDS height="270" left="2250" top="3570" type="Box" width="720">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="WEBCAM">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE id="1" nodename="VIDEOIN (DSHOW9)" systemname="VideoIn (DShow9)">
+   <BOUNDS height="0" left="2010" top="2175" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Driver" visible="1">
+   </PIN>
+   <PIN pinname="Video" visible="1">
+   </PIN>
+   <PIN pinname="Force Preview Output (via SmartT)" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Video Format" slicecount="1" values="None">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
+   <PIN pinname="Framerate" slicecount="1" values="60">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" values="640">
+   </PIN>
+   <PIN pinname="Height" slicecount="1" values="480">
+   </PIN>
+   <PIN pinname="Property Page" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="2" nodename="IOBox (Enumerations)" systemname="IOBox (Enumerations)">
+   <BOUNDS height="0" left="915" top="450" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="6120" top="4530" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="240" left="915" top="450" type="Box" width="1050">
+   </BOUNDS>
+   <PIN pinname="Output Enum" visible="1">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="video_in_device">
+   </PIN>
+   </NODE>
+   <NODE id="3" nodename="VIDEOTEXTURE (EX9.TEXTURE VMR9)" systemname="VideoTexture (EX9.Texture VMR9)">
+   <BOUNDS height="0" left="2010" top="2550" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   <PIN pinname="Video" visible="1">
+   </PIN>
+   <PIN pinname="Texture Size Mode" slicecount="1" values="Pow2Stretched">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="4" nodename="Switch (Node Input)" systemname="Switch (Node Input)">
+   <BOUNDS height="100" left="1500" top="3015" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="5" nodename="EQ (Value)" systemname="EQ (Value)">
+   <BOUNDS height="100" left="1500" top="1620" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="6" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Input 1|">
+   </PIN>
+   <BOUNDS type="Box" left="2835" top="485" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2835" top="485" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="4" dstpinname="Switch">
+   </LINK>
+   <LINK dstnodeid="4" dstpinname="Input 2" srcnodeid="3" srcpinname="Texture Out">
+   </LINK>
+   <NODE id="7" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Output">
+   </PIN>
+   <BOUNDS type="Box" left="1500" top="4340" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1500" top="4340" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Output" dstnodeid="7" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Output" dstnodeid="1" dstpinname="Enabled">
+   </LINK>
+   <LINK dstnodeid="1" dstpinname="Driver" srcnodeid="2" srcpinname="Output Enum">
+   </LINK>
+   <LINK dstnodeid="3" dstpinname="Video" srcnodeid="1" srcpinname="Video">
+   </LINK>
+   </PATCH>

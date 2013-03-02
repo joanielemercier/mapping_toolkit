@@ -1,0 +1,369 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+   <PATCH nodename="C:\Users\Uberact\Dropbox\shared\MAPPING_TOOLKIT_WARPING\Subpatches\SVG\SVG.v4p" systemname="SVG" filename="D:\dropbox\MAPPING TOOLKIT\new_mapping_toolkit\release_0.2c_alpha\svg\SVG.v4p">
+   <BOUNDS type="Window" left="16290" top="3870" width="13065" height="11925">
+   </BOUNDS>
+   <NODE componentmode="InABox" id="18" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="1260" top="915" type="Node" width="0">
+   </BOUNDS>
+   <BOUNDS height="160" left="7230" top="5055" type="Window" width="215">
+   </BOUNDS>
+   <BOUNDS height="450" left="1260" top="915" type="Box" width="420">
+   </BOUNDS>
+   <PIN pinname="Minimum" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Maximum" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Slider Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Show Slider" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="|LOAD SVG|">
+   </PIN>
+   </NODE>
+   <NODE id="17" nodename="OR (Boolean)" systemname="OR (Boolean)">
+   <BOUNDS height="0" left="1500" top="3270" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="16" nodename="OnOpen (VVVV)" systemname="OnOpen (VVVV)">
+   <BOUNDS height="0" left="1575" top="2625" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Bang" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="15" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)">
+   <BOUNDS height="0" left="1575" top="2955" type="Node" width="0">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output 1" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="15" dstpinname="Input 1" srcnodeid="16" srcpinname="Bang">
+   </LINK>
+   <LINK dstnodeid="17" dstpinname="Input 2" srcnodeid="15" srcpinname="Output 1">
+   </LINK>
+   <NODE componentmode="InABox" id="14" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1440" top="1605" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="480" left="1440" top="1605" type="Box" width="435">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="|SAVE SVG|">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="12" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="100" left="4020" top="3150" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="300" left="4020" top="3150" type="Box" width="810">
+   </BOUNDS>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="1" values="..\..\files\witchrevised200.svg">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Filename">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="11" nodename="Dir (File)" systemname="Dir (File)">
+   <BOUNDS height="100" left="1485" top="3795" type="Node" width="100">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Mask" slicecount="1" values="*.svg">
+   </PIN>
+   <PIN encoded="0" pinname="Directory" visible="1">
+   </PIN>
+   <PIN pinname="Update" visible="1">
+   </PIN>
+   <PIN pinname="Filenames" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="10" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="2775" top="705" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="450" left="2775" top="705" type="Box" width="390">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Update">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="8" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="3165" top="705" type="Node" width="660">
+   </BOUNDS>
+   <BOUNDS height="465" left="3165" top="705" type="Box" width="570">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|refresh list|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="11" dstpinname="Update" hiddenwhenlocked="1" linkstyle="PolyLine" srcnodeid="10" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="Hidden" id="7" nodename="RelativePath (File)" systemname="RelativePath (File)">
+   <BOUNDS height="100" left="4770" top="4098" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Absolute Path" visible="1">
+   </PIN>
+   <PIN pinname="Relative Path" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="7" dstpinname="Absolute Path" srcnodeid="11" srcpinname="Filenames">
+   </LINK>
+   <NODE componentmode="Hidden" id="6" nodename="Switch (String Input)" systemname="Switch (String Input)">
+   <BOUNDS height="100" left="1485" top="5670" type="Node" width="100">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input 2" slicecount="1" visible="1" values="text">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN encoded="0" pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Switch" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="5" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="2280" top="5310" type="Node" width="1020">
+   </BOUNDS>
+   <BOUNDS height="240" left="2280" top="5310" type="Box" width="990">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|SVG / BLANK|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="3" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="480" left="1515" top="6345" type="Node" width="2550">
+   </BOUNDS>
+   <BOUNDS height="480" left="1515" top="6345" type="Box" width="2550">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|&lt; CUSTOM SVG PARSER&cr;&lf;maybe replace with new vvvv node|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="2" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="1095" top="120" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="480" left="1095" top="120" type="Box" width="435">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="|NEW FILE|">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" id="1" nodename="Add (Value)" systemname="Add (Value)">
+   <BOUNDS height="100" left="1155" top="2940" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="17" dstpinname="Input 1" srcnodeid="1" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="1" dstpinname="Input 1" srcnodeid="18" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="Hidden" id="0" nodename="TogEdge (Animation)" systemname="TogEdge (Animation)">
+   <BOUNDS height="100" left="1365" top="5205" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Up Edge" visible="1">
+   </PIN>
+   <PIN pinname="Down Edge" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="0" dstpinname="Input" srcnodeid="2" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="1" dstpinname="Input 2" srcnodeid="0" srcpinname="Down Edge">
+   </LINK>
+   <LINK dstnodeid="6" dstpinname="Switch" srcnodeid="0" srcpinname="Up Edge">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="19">
+   <BOUNDS type="Node" left="1455" top="7125" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1455" top="7125" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="polygons">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="20">
+   <BOUNDS type="Node" left="570" top="3585" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="570" top="3585" width="405" height="540">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="points">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="21">
+   <BOUNDS type="Node" left="2490" top="7110" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2490" top="7110" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="load">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Output" dstnodeid="21" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="23">
+   <BOUNDS type="Node" left="2580" top="2940" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2580" top="2940" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN pinname="Input String" slicecount="1" encoded="0" values="..\..\Assets">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Output String" dstnodeid="11" dstpinname="Directory">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="27" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="4770" top="4455" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4770" top="4455" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Relative Path|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Relative Path" dstnodeid="27" dstpinname="Input String">
+   </LINK>
+   <NODE systemname="GetSlice (String)" nodename="GetSlice (String)" componentmode="Hidden" id="28">
+   <BOUNDS type="Node" left="2865" top="4650" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Index" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Filenames" dstnodeid="28" dstpinname="Input">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="29">
+   <BOUNDS type="Node" left="3495" top="4080" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3495" top="4080" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="selected">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="29" srcpinname="Y Output Value" dstnodeid="28" dstpinname="Index">
+   </LINK>
+   <LINK srcnodeid="28" srcpinname="Output" dstnodeid="6" dstpinname="Input 1">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="31" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3390" top="2934" width="570" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3390" top="2934" width="570" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="folder">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE componentmode="Hidden" filename="Subpatches\SVG_PARSER.v4p" id="13" nodename="Subpatches\SVG_PARSER.v4p" systemname="SVG_PARSER">
+   <PIN pinname="load" visible="1">
+   </PIN>
+   <PIN encoded="0" pinname="Filename" visible="1">
+   </PIN>
+   <BOUNDS height="100" left="1470" top="6030" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="polygons" visible="1">
+   </PIN>
+   <BOUNDS height="12585" left="13245" top="1575" type="Window" width="14460">
+   </BOUNDS>
+   </NODE>
+   <LINK dstnodeid="13" dstpinname="load" srcnodeid="17" srcpinname="Output">
+   </LINK>
+   <LINK dstnodeid="13" dstpinname="Filename" srcnodeid="6" srcpinname="Output">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="polygons" dstnodeid="19" dstpinname="Y Input Value">
+   </LINK>
+   <NODE componentmode="Hidden" filename="Subpatches\SAVE_SVG.v4p" id="4" nodename="Subpatches\SAVE_SVG.v4p" systemname="SAVE_SVG">
+   <BOUNDS height="100" left="1485" top="4620" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Write" visible="1">
+   </PIN>
+   <PIN pinname="points" visible="1">
+   </PIN>
+   <PIN pinname="Filename" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="4" dstpinname="Write" hiddenwhenlocked="1" linkstyle="PolyLine" srcnodeid="14" srcpinname="Y Output Value">
+   </LINK>
+   <LINK dstnodeid="4" dstpinname="Filename" hiddenwhenlocked="1" srcnodeid="12" srcpinname="Output String">
+   </LINK>
+   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="4" dstpinname="points">
+   </LINK>
+   </PATCH>

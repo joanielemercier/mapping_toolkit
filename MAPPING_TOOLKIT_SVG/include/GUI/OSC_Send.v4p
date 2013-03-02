@@ -259,7 +259,11 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1545" top="720" width="285" height="315">
    </BOUNDS>
+<<<<<<< HEAD
    <PIN pinname="Y Input Value" slicecount="1" values="18">
+=======
+   <PIN pinname="Y Input Value" slicecount="1" values="17">
+>>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
