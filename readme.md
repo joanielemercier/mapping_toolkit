@@ -1,9 +1,9 @@
 # Mapping Toolkit 
 
 <<<<<<< HEAD
-Developped by Joanie Lemercier (http://www.joanielemercier.com)
 =======
-Developped by Joanie Lemercier
+Developped by Joanie Lemercier (http://www.joanielemercier.com)
+With some help from Woei and lecloneur
 >>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
 
 
