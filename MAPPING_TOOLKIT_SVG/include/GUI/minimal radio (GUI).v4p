@@ -213,11 +213,7 @@
    </BOUNDS>
    <BOUNDS height="0" left="795" top="3675" type="Window" width="0">
    </BOUNDS>
-<<<<<<< HEAD
    <PIN pinname="Internal Value" slicecount="8" values="0,0,4,4,0,4,4,4">
-=======
-   <PIN pinname="Internal Value" slicecount="8" values="0,1,4,4,0,4,4,4">
->>>>>>> bf8fab2260498ab0664965339f58e6db111edff8
    </PIN>
    <PIN pinname="SizeXY" slicecount="1" visible="1" values="1">
    </PIN>
