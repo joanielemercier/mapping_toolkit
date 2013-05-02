@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
-   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\include\GUI\minimal slider (GUI).v4p" systemname="minimal slider (GUI)" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\sandbox\minimal slider (GUI).v4p">
-   <BOUNDS type="Window" left="4125" top="7965" width="13890" height="6660">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\Subpatches\GUI\minimal slider (GUI).v4p" systemname="minimal slider (GUI)" filename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\Subpatches\GUI\minimal slider (GUI).v4p">
+   <BOUNDS type="Window" left="4125" top="7965" width="14775" height="6810">
    </BOUNDS>
    <NODE componentmode="Hidden" id="18" nodename="Translate (Transform)" systemname="Translate (Transform)">
    <BOUNDS height="100" left="450" top="2385" type="Node" width="100">
@@ -681,7 +681,7 @@
    </PIN>
    <PIN pinname="Layer Template Count" slicecount="1" values="3">
    </PIN>
-   <PIN pinname="Layer 3" visible="1">
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <NODE systemname="Multiply (Value)" nodename="Multiply (Value)" componentmode="Hidden" id="51">
@@ -880,7 +880,7 @@
    <PIN pinname="Ord Value" visible="1">
    </PIN>
    </NODE>
-   <NODE componentmode="InABox" id="73" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
+   <NODE componentmode="InABox" id="73" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="10035" top="1350" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="240" left="10035" top="1350" type="Box" width="795">
@@ -962,7 +962,7 @@
    <PIN pinname="Ord Value" visible="1">
    </PIN>
    </NODE>
-   <NODE componentmode="InABox" id="66" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
+   <NODE componentmode="InABox" id="66" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="11730" top="1365" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="240" left="11730" top="1365" type="Box" width="795">
@@ -1003,7 +1003,7 @@
    </BOUNDS>
    <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Internal Value" slicecount="5" values="0.217192556634304,0.139583333333333,0,0,0.217192556634304">
+   <PIN pinname="Internal Value" slicecount="4" values="0.611480582524272,0,0,0">
    </PIN>
    <PIN pinname="Slider Size" visible="1" slicecount="1" values="0.29">
    </PIN>
@@ -1439,7 +1439,7 @@
    <LINK srcnodeid="88" srcpinname="Output String" dstnodeid="89" dstpinname="Text">
    </LINK>
    <NODE systemname="Frac (Value)" nodename="Frac (Value)" componentmode="Hidden" id="121">
-   <BOUNDS type="Node" left="10077" top="3291" width="100" height="100">
+   <BOUNDS type="Node" left="9945" top="3555" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -1449,7 +1449,7 @@
    <LINK srcnodeid="107" srcpinname="Output" dstnodeid="121" dstpinname="Input">
    </LINK>
    <NODE systemname="Frac (Value)" nodename="Frac (Value)" componentmode="Hidden" id="123">
-   <BOUNDS type="Node" left="9585" top="3297" width="100" height="100">
+   <BOUNDS type="Node" left="9420" top="3405" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -1496,4 +1496,12 @@
    </LINK>
    <LINK srcnodeid="85" srcpinname="Mouse" dstnodeid="125" dstpinname="Input 2">
    </LINK>
+   <NODE systemname="text (GUI)" filename="minimal text (GUI).v4p" nodename="text (GUI)" componentmode="Hidden" id="126">
+   <BOUNDS type="Node" left="7275" top="5070" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="output info" slicecount="4" values="0,0,0,1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="OK">
+   </PIN>
+   </NODE>
    </PATCH>

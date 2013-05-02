@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
-   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\include\GUI\minimal_GUI.v4p" locked="0" systemname=" (GUI))" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\sandbox\(GUI) sandbox.v4p">
-   <BOUNDS height="10020" left="5415" top="4650" type="Window" width="13245">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\Subpatches\GUI\minimal_GUI.v4p" locked="0" systemname=" (GUI))" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\sandbox\(GUI) sandbox.v4p">
+   <BOUNDS height="10020" left="1725" top="5145" type="Window" width="13245">
    </BOUNDS>
    <NODE componentmode="InAWindow" id="28" nodename="RENDERER (EX9)" systemname="Renderer (EX9)">
    <BOUNDS height="270" left="300" top="11100" type="Node" width="2385">
    </BOUNDS>
    <BOUNDS height="1800" left="300" top="11100" type="Box" width="2400">
    </BOUNDS>
-   <BOUNDS height="5745" left="360" top="0" type="Window" width="6435">
+   <BOUNDS height="5235" left="360" top="0" type="Window" width="6435">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -1036,7 +1036,7 @@
    </NODE>
    <LINK srcnodeid="262" srcpinname="Output" dstnodeid="264" dstpinname="Input 3">
    </LINK>
-   <NODE systemname="minimal radio (GUI)" filename="..\..\Subpatches\GUI\minimal radio (GUI).v4p" nodename="minimal radio (GUI)" componentmode="Hidden" id="295">
+   <NODE systemname="radio (GUI)" filename="minimal radio (GUI).v4p" nodename="radio (GUI)" componentmode="Hidden" id="295">
    <BOUNDS type="Node" left="1215" top="2745" width="100" height="100">
    </BOUNDS>
    <PIN pinname="x" visible="1">
@@ -1063,6 +1063,8 @@
    </BOUNDS>
    <PIN pinname="Text" visible="1">
    </PIN>
+   <PIN pinname="value" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="240" srcpinname="Y Output Value" dstnodeid="295" dstpinname="box size" linkstyle="Bezier" hiddenwhenlocked="1">
    <LINKPOINT x="2390" y="2400">
@@ -1088,7 +1090,7 @@
    <LINKPOINT x="2145" y="2550">
    </LINKPOINT>
    </LINK>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="296">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="296">
    <BOUNDS type="Node" left="5160" top="2814" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -1158,7 +1160,7 @@
    <LINKPOINT x="6304" y="2721">
    </LINKPOINT>
    </LINK>
-   <NODE systemname="minimal text (GUI)" filename="..\..\Subpatches\GUI\minimal text (GUI).v4p" nodename="minimal text (GUI)" componentmode="Hidden" id="297">
+   <NODE systemname="text (GUI)" filename="minimal text (GUI).v4p" nodename="text (GUI)" componentmode="Hidden" id="297">
    <BOUNDS type="Node" left="10227" top="3039" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Window" left="9840" top="7890" width="10605" height="6930">
@@ -1252,7 +1254,7 @@
    </NODE>
    <LINK srcnodeid="307" srcpinname="Output" dstnodeid="309" dstpinname="Input 2">
    </LINK>
-   <NODE systemname="Cursor" filename="..\..\Subpatches\Cursor.v4p" nodename="..\..\Subpatches\Cursor.v4p" componentmode="Hidden" id="97">
+   <NODE systemname="cursor" filename="..\..\include\cursor.v4p" nodename="..\..\include\cursor.v4p" componentmode="Hidden" id="97">
    <BOUNDS type="Node" left="2085" top="12045" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -1437,27 +1439,25 @@
    </PIN>
    <PIN pinname="Rows" slicecount="1" values="2">
    </PIN>
-   <PIN pinname="Y Input Value">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Vector Size" slicecount="1" values="2">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="|0, 0|">
    </PIN>
    </NODE>
-   <LINK srcnodeid="295" srcpinname="value" dstnodeid="335" dstpinname="Y Input Value">
+   <LINK srcnodeid="295" srcpinname="Value" dstnodeid="335" dstpinname="Y Input Value">
    </LINK>
    <NODE systemname="Vector (2d Split)" nodename="Vector (2d Split)" componentmode="Hidden" id="336">
-   <BOUNDS type="Node" left="2115" top="3453" width="100" height="100">
+   <BOUNDS type="Node" left="2520" top="3183" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="XY" visible="1">
+   <PIN pinname="XY" visible="1" slicecount="2" values="0,0">
    </PIN>
    <PIN pinname="X" visible="1">
    </PIN>
    <PIN pinname="Y" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="295" srcpinname="value" dstnodeid="336" dstpinname="XY">
-   </LINK>
    <LINK srcnodeid="303" srcpinname="Output" dstnodeid="295" dstpinname="CountXY">
    </LINK>
    <NODE systemname="Cons (String)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Cons (String)" componentmode="Hidden" id="340">
@@ -1974,7 +1974,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="366">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="366">
    <BOUNDS type="Node" left="7515" top="7515" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -2460,7 +2460,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="424">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="424">
    <BOUNDS type="Node" left="1260" top="7545" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -2591,9 +2591,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="336" srcpinname="X" dstnodeid="449" dstpinname="Y Input Value" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="2310" y="4373">
+   <LINKPOINT x="2580" y="4193">
    </LINKPOINT>
-   <LINKPOINT x="5970" y="4283">
+   <LINKPOINT x="6105" y="4193">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="449" srcpinname="Y Output Value" dstnodeid="418" dstpinname="Input 1" linkstyle="PolyLine" hiddenwhenlocked="1">
@@ -2748,7 +2748,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="456">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="456">
    <BOUNDS type="Node" left="4470" top="7560" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -3098,7 +3098,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="484">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="484">
    <BOUNDS type="Node" left="10785" top="7470" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -3394,7 +3394,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="505">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="505">
    <BOUNDS type="Node" left="13998" top="7365" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -3730,7 +3730,7 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="minimal slider (GUI)" filename="..\..\Subpatches\GUI\minimal slider (GUI).v4p" nodename="minimal slider (GUI)" componentmode="Hidden" id="527">
+   <NODE systemname="slider (GUI)" filename="minimal slider (GUI).v4p" nodename="slider (GUI)" componentmode="Hidden" id="527">
    <BOUNDS type="Node" left="16968" top="7374" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -3839,9 +3839,9 @@
    <LINK srcnodeid="527" srcpinname="Layer" dstnodeid="450" dstpinname="Layer 6">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="537" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="14250" top="4965" width="0" height="0">
+   <BOUNDS type="Node" left="13695" top="5010" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="14250" top="4965" width="795" height="240">
+   <BOUNDS type="Box" left="13695" top="5010" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -3851,9 +3851,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="336" srcpinname="Y" dstnodeid="537" dstpinname="Y Input Value" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="2820" y="4373">
+   <LINKPOINT x="2905" y="4208">
    </LINKPOINT>
-   <LINKPOINT x="14115" y="4283">
+   <LINKPOINT x="13880" y="4223">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="537" srcpinname="Y Output Value" dstnodeid="514" dstpinname="Input 1" linkstyle="PolyLine" hiddenwhenlocked="1">
@@ -4105,9 +4105,9 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="537" srcpinname="Y Output Value" dstnodeid="559" dstpinname="Input 1" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="14295" y="2715">
+   <LINKPOINT x="13925" y="2745">
    </LINKPOINT>
-   <LINKPOINT x="17445" y="2715">
+   <LINKPOINT x="17260" y="2730">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="559" srcpinname="Output" dstnodeid="546" dstpinname="Enabled" linkstyle="Bezier" hiddenwhenlocked="1">
@@ -4397,7 +4397,7 @@
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="588">
    <BOUNDS type="Node" left="1200" top="3870" width="20010" height="270">
    </BOUNDS>
-   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   <PIN pinname="Layer 1" visible="1">
    </PIN>
    <PIN pinname="Layer 2" visible="1">
    </PIN>
@@ -4412,6 +4412,8 @@
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="295" srcpinname="Layer" dstnodeid="588" dstpinname="Layer 1">
+   </LINK>
    <LINK srcnodeid="296" srcpinname="Layer" dstnodeid="588" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="297" srcpinname="Layer" dstnodeid="588" dstpinname="Layer 3">
@@ -4427,9 +4429,9 @@
    <LINK srcnodeid="97" srcpinname="Layer" dstnodeid="26" dstpinname="Layer 3">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="590" hiddenwhenlocked="1">
-   <BOUNDS type="Node" left="9555" top="4755" width="100" height="100">
+   <BOUNDS type="Node" left="9855" top="4965" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="9555" top="4755" width="795" height="240">
+   <BOUNDS type="Box" left="9855" top="4965" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
@@ -4437,81 +4439,81 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="72" srcpinname="XYZW" dstnodeid="590" dstpinname="Y Input Value" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="2045" y="8165">
+   <LINKPOINT x="2145" y="8235">
    </LINKPOINT>
-   <LINKPOINT x="9655" y="7975">
+   <LINKPOINT x="9855" y="8115">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="424" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9655" y="6018">
+   <LINKPOINT x="9855" y="6158">
    </LINKPOINT>
-   <LINKPOINT x="1220" y="6208">
+   <LINKPOINT x="1320" y="6278">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="295" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9655" y="3820">
+   <LINKPOINT x="9855" y="3960">
    </LINKPOINT>
-   <LINKPOINT x="1820" y="3890">
+   <LINKPOINT x="1920" y="3960">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="296" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9655" y="3850">
+   <LINKPOINT x="9855" y="3990">
    </LINKPOINT>
-   <LINKPOINT x="5120" y="3920">
+   <LINKPOINT x="5220" y="3990">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="297" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9685" y="3985">
+   <LINKPOINT x="9885" y="4125">
    </LINKPOINT>
-   <LINKPOINT x="10145" y="4055">
+   <LINKPOINT x="10245" y="4125">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="361" dstpinname="output_info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9715" y="3783">
+   <LINKPOINT x="9915" y="3923">
    </LINKPOINT>
-   <LINKPOINT x="13475" y="3853">
+   <LINKPOINT x="13575" y="3923">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="546" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9715" y="3850">
+   <LINKPOINT x="9915" y="3990">
    </LINKPOINT>
-   <LINKPOINT x="17720" y="3920">
+   <LINKPOINT x="17820" y="3990">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="527" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9715" y="5935">
+   <LINKPOINT x="9915" y="6075">
    </LINKPOINT>
-   <LINKPOINT x="16865" y="6125">
+   <LINKPOINT x="16965" y="6195">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="505" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9715" y="5928">
+   <LINKPOINT x="9915" y="6068">
    </LINKPOINT>
-   <LINKPOINT x="13895" y="6118">
+   <LINKPOINT x="13995" y="6188">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="484" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9700" y="5988">
+   <LINKPOINT x="9900" y="6128">
    </LINKPOINT>
-   <LINKPOINT x="10700" y="6178">
+   <LINKPOINT x="10800" y="6248">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="366" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9655" y="6003">
+   <LINKPOINT x="9855" y="6143">
    </LINKPOINT>
-   <LINKPOINT x="7475" y="6193">
+   <LINKPOINT x="7575" y="6263">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="456" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9655" y="6025">
+   <LINKPOINT x="9855" y="6165">
    </LINKPOINT>
-   <LINKPOINT x="4430" y="6215">
+   <LINKPOINT x="4530" y="6285">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="590" srcpinname="Y Output Value" dstnodeid="572" dstpinname="output info" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="9715" y="3138">
+   <LINKPOINT x="9915" y="3278">
    </LINKPOINT>
-   <LINKPOINT x="17870" y="3208">
+   <LINKPOINT x="17970" y="3278">
    </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="592" systemname="IOBox (Value Advanced)">
@@ -4772,7 +4774,7 @@
    </LINK>
    <LINK srcnodeid="608" srcpinname="Count" dstnodeid="585" dstpinname="Input 7 Bin Size">
    </LINK>
-   <NODE id="622" systemname="OSC_Send" filename="..\..\Subpatches\GUI\OSC_Send.v4p" nodename="..\..\Subpatches\GUI\OSC_Send.v4p" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <NODE id="622" systemname="OSC_Send" filename="include\GUI\OSC_Send.v4p" nodename="include\GUI\OSC_Send.v4p" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Window" left="7710" top="9810" width="6525" height="4965">
    </BOUNDS>
    <BOUNDS type="Node" left="7485" top="14730" width="100" height="100">
@@ -4828,30 +4830,6 @@
    </NODE>
    <LINK srcnodeid="625" srcpinname="Output String" dstnodeid="622" dstpinname="Remote Host">
    </LINK>
-   <LINK srcnodeid="295" srcpinname="Layer" dstnodeid="588" dstpinname="Layer 1">
-   </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="626" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="4410" top="5220" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="4410" top="5220" width="795" height="240">
-   </BOUNDS>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="336" srcpinname="Y" dstnodeid="626" dstpinname="Y Input Value">
-   </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="627" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="4260" top="5790" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="4260" top="5790" width="795" height="240">
-   </BOUNDS>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="336" srcpinname="X" dstnodeid="627" dstpinname="Y Input Value">
+   <LINK srcnodeid="295" srcpinname="value" dstnodeid="336" dstpinname="XY">
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
-   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\include\GUI\minimal text (GUI).v4p" systemname="minimal text (GUI)" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\sandbox\minimal text (GUI).v4p">
-   <BOUNDS type="Window" left="15165" top="5625" width="9885" height="6930">
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\Subpatches\GUI\minimal text (GUI).v4p" systemname="minimal text (GUI)" filename="D:\dropbox\MAPPING TOOLKIT\shared\MAPPING_TOOLKIT_SVG\Subpatches\GUI\minimal text (GUI).v4p">
+   <BOUNDS type="Window" left="8070" top="6900" width="9885" height="6930">
    </BOUNDS>
    <NODE componentmode="Hidden" id="30" nodename="Billboard (Transform)" systemname="Billboard (Transform)">
    <BOUNDS height="100" left="465" top="3585" type="Node" width="100">
@@ -402,7 +402,7 @@
    <PIN pinname="Ord Value" visible="1">
    </PIN>
    </NODE>
-   <NODE componentmode="InABox" id="52" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
+   <NODE componentmode="InABox" id="52" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="8325" top="1320" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="240" left="8325" top="1320" type="Box" width="285">
@@ -514,7 +514,7 @@
    </NODE>
    <LINK srcnodeid="79" srcpinname="Y Output Value" dstnodeid="80" dstpinname="Switch">
    </LINK>
-   <NODE componentmode="InABox" id="78" nodename="IOBox (Value Advanced)" systemname="IOBOX (VALUE ADVANCED)">
+   <NODE componentmode="InABox" id="78" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="6600" top="1290" type="Node" width="0">
    </BOUNDS>
    <BOUNDS height="240" left="6600" top="1290" type="Box" width="285">
