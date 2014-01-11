@@ -1,0 +1,239 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta31.dtd" >
+   <PATCH nodename="C:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\Subpatches\Project_loader.v4p" systemname="Project_loader" filename="C:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\Subpatches\Project_loader.v4p">
+   <BOUNDS type="Window" left="6435" top="8145" width="9000" height="6000">
+   </BOUNDS>
+   <NODE componentmode="Hidden" id="10" nodename="Dir (File)" systemname="Dir (File)">
+   <BOUNDS height="100" left="429" top="1194" type="Node" width="100">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Mask" slicecount="1" values="*.svg">
+   </PIN>
+   <PIN encoded="0" pinname="Directory" visible="1">
+   </PIN>
+   <PIN pinname="Update" visible="1">
+   </PIN>
+   <PIN pinname="Filenames" visible="1">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="9" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="100" left="2055" top="288" type="Node" width="100">
+   </BOUNDS>
+   <BOUNDS height="450" left="2055" top="288" type="Box" width="390">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Update">
+   </PIN>
+   </NODE>
+   <NODE componentmode="InABox" id="8" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="2445" top="288" type="Node" width="660">
+   </BOUNDS>
+   <BOUNDS height="288" left="2445" top="288" type="Box" width="1020">
+   </BOUNDS>
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|refresh list|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="10" dstpinname="Update" hiddenwhenlocked="1" linkstyle="PolyLine" srcnodeid="9" srcpinname="Y Output Value">
+   </LINK>
+   <NODE componentmode="Hidden" id="7" nodename="RelativePath (File)" systemname="RelativePath (File)">
+   <BOUNDS height="100" left="2298" top="1269" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Absolute Path" visible="1">
+   </PIN>
+   <PIN pinname="Relative Path" visible="1">
+   </PIN>
+   </NODE>
+   <LINK dstnodeid="7" dstpinname="Absolute Path" srcnodeid="10" srcpinname="Filenames">
+   </LINK>
+   <NODE systemname="IOBox (String)" nodename="IOBox (String)" componentmode="InABox" id="5">
+   <BOUNDS type="Node" left="408" top="459" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="408" top="459" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN pinname="Input String" slicecount="1" encoded="0" values="..\content">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Output String" dstnodeid="10" dstpinname="Directory">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="4" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3750" top="1770" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3750" top="1770" width="1596" height="276">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Relative Path|">
+   </PIN>
+   <PIN pinname="Input String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="GetSlice (String)" nodename="GetSlice (String)" componentmode="Hidden" id="3">
+   <BOUNDS type="Node" left="453" top="2385" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Index" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="2">
+   <BOUNDS type="Node" left="1035" top="1815" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1035" top="1815" width="804" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="selected">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Index">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1290" top="441" width="570" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1290" top="441" width="570" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="folder">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="444" top="3015" width="1788" height="444">
+   </BOUNDS>
+   <BOUNDS type="Node" left="444" top="3015" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="text">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="svg">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Output" dstnodeid="0" dstpinname="Input String">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Relative Path" dstnodeid="4" dstpinname="Input String">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="12" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="3156" top="876" width="792" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3156" top="876" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="..\content">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="12" srcpinname="Output String" dstnodeid="7" dstpinname="Base Path">
+   </LINK>
+   <NODE systemname="RegExpr (String Replace)" filename="%VVVV%\addonpack\lib\nodes\plugins\RegExprNodes.dll" nodename="RegExpr (String Replace)" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="2376" top="1704" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Regular Expression" slicecount="1" values=".svg">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="To" slicecount="1" values=".jpg">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Filenames" dstnodeid="3" dstpinname="Input">
+   </LINK>
+   <NODE systemname="GetSlice (String)" nodename="GetSlice (String)" componentmode="Hidden" id="16">
+   <BOUNDS type="Node" left="2376" top="2412" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1" slicecount="1" values="text">
+   </PIN>
+   <PIN pinname="Index" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="16" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="16" dstpinname="Index">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Filenames" dstnodeid="15" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="17" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="2376" top="2964" width="1560" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2376" top="2964" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="text">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="jpg">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Output" dstnodeid="17" dstpinname="Input String">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="18" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="3972" top="1164" width="792" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3972" top="1164" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values=".jpg">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="18" srcpinname="Output String" dstnodeid="15" dstpinname="To">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="19" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="4344" top="780" width="792" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4344" top="780" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="(\.svg)">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="19" srcpinname="Output String" dstnodeid="15" dstpinname="Regular Expression">
+   </LINK>
+   </PATCH>

@@ -1,7 +1,6 @@
-# Mapping Toolkit from [AntiVJ](http://www.antivj.com)
+# Mapping Toolkit
 
 Developped by Joanie Lemercier
-
 
 The mapping toolkit is a pack of patches / modules dedicated to projection mapping. The first two are:
 

@@ -1,0 +1,317 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+   <PATCH nodename="D:\dropbox\MAPPING TOOLKIT\MAPPING_TOOLKIT_SVG\SANDBOX.v4p" systemname="SANDBOX" filename="D:\dropbox\MAPPING TOOLKIT\MAPPING TOOLKIT - SVG\SANDBOX.v4p">
+   <BOUNDS type="Window" left="11025" top="7755" width="10350" height="6885">
+   </BOUNDS>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="225" top="210" width="1170" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="225" top="210" width="3750" height="345">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|THINGS TO DO - FEBRUARY 2013|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="11">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1200" top="1365" width="2955" height="690">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1200" top="1365" width="3420" height="1155">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|REPLACE SVG PARSER BY NEW SVG NODES&cr;&lf;&gt; WILL ALLOW TO EXTRACT PATHS DATA&cr;&lf;&cr;&lf;TODO: SEPARATE object types&cr;&lf;DEBUG: DOUBLE DATA / SPREAD COUNT|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="2" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="585" top="705" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="585" top="705" width="495" height="1125">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="1">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="50">
+   </PIN>
+   <PIN pinname="Show SliceIndex" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Character Encoding" slicecount="1" values="ANSI">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="3" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1230" top="870" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1230" top="870" width="2655" height="510">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|SVG PARSER|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="19">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="5">
+   <BOUNDS type="Node" left="300" top="855" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="300" top="855" width="345" height="2325">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.88100,0.80708,0.41900,1.00000|">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="7">
+   <BOUNDS type="Node" left="5715" top="855" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5715" top="855" width="345" height="2325">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|1.01500,0.53620,0.38500,1.00000|">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="8">
+   <BOUNDS type="Node" left="300" top="3885" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="300" top="3885" width="345" height="2265">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|1.01500,0.72520,0.38500,1.00000|">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="9">
+   <BOUNDS type="Node" left="5715" top="3885" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5715" top="3885" width="345" height="2265">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.85300,0.62044,0.54700,1.00000|">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="12" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1380" top="4485" width="2955" height="690">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1380" top="4485" width="3165" height="1215">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|REPLACE LINE EX9 by GPU LINE&cr;&lf;&gt; MUCH BETTER PERFORMANCES&cr;&lf;&cr;&lf;TODO: a color per line.&cr;&lf;&quot;LINE FROM&quot; and &quot;LINE TO&quot; per line.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="11" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="720" top="3825" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="720" top="3825" width="645" height="1095">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="3">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="50">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="10" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1410" top="3990" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1410" top="3990" width="1725" height="495">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|GPU LINE|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="19">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="15" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6795" top="1365" width="2955" height="690">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6795" top="1365" width="2415" height="1005">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|DRAW PATHS FROM SVG data&cr;&lf;&gt;  fill and animate shapes&cr;&lf;&cr;&lf;TODO: BIN SIZE and debug|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="14" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6135" top="705" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6135" top="705" width="645" height="1095">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="2">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="50">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="13" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6825" top="870" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6825" top="870" width="2610" height="540">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|DRAW PATHS|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="19">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="21" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6795" top="4515" width="2955" height="690">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6795" top="4515" width="2970" height="1005">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|REPLACE QUADS by shader&cr;&lf;&gt; MUCH BETTER PERFORMANCES&cr;&lf;&cr;&lf;TODO: adapt a gpu particles shader|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="20" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6135" top="3855" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6135" top="3855" width="645" height="1095">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="4">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="50">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="19" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6825" top="4020" width="240" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6825" top="4020" width="2325" height="480">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="|GPU POINTS|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="19">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="23" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="1230" top="2625" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1230" top="2625" width="1680" height="300">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" encoded="0" values="content\sapin.svg">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" encoded="0" values="file.svg">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" encoded="0" values="|SVG Files (*.svg)||*.svg|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE id="24" componentmode="Hidden" systemname="1-SVG_PARSER" filename="sandbox\1-SVG_PARSER.v4p" nodename="sandbox\1-SVG_PARSER.v4p" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Filename" visible="1" pintype="Input" encoded="0">
+   </PIN>
+   <BOUNDS type="Window" left="-1035" top="3480" width="18900" height="14115">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1230" top="3018" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="0" width="4800" height="3600">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Path XY" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="paths" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="polyline" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="rect_translate" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="polygons" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="document_size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="line_A" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="rect_size" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="line_B" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="polygons binsize" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="rect color" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="polygons color" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Output String" dstnodeid="24" dstpinname="Filename">
+   </LINK>
+   <NODE systemname="Line (gpu)" filename="sandbox\Line (gpu)\Line (gpu).v4p" nodename="Line (gpu)" componentmode="Hidden" id="25">
+   <BOUNDS type="Node" left="1455" top="5685" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   </PATCH>
